@@ -1,0 +1,22 @@
+@import url(main-style.css);
+
+.add-btn {
+    position: fixed;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    bottom: 5%;
+    right: 7%;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.2;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+

@@ -1,0 +1,47 @@
+@import url(main-style.css);
+
+.header-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-img {
+    width: 120px;
+    height: 120px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.profile-info div :first-child {
+    color: rgb(74, 74, 74);
+    font-weight: 200;
+}
+.number-info {
+    color: rgb(161, 161, 161);
+    font-weight: 300;
+    font-size: 25px;
+}
+.number-info span {
+    font-size: 50px;
+    color: #000;
+}
+@media (max-width: 767px) {
+    .profile-div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .profile-div > div {
+        margin: auto;
+        width: fit-content;
+    }
+    .profile-div .header-img-div {
+        margin-bottom: 15px;
+    }
+    .profile-div hr {
+        display: none;
+    }
+}
